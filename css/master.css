@@ -1,0 +1,18 @@
+.valuation-list {
+  background-repeat: no-repeat;
+  list-style-type: none;
+  cursor: pointer;
+  display: flex;
+}
+  .valuation-list-item {
+    width: 18px;
+    height: 16px;
+    background-image: url(../img/star-grey.png);
+    /*display: inline-block;*/
+  }
+  .valuation-list-item.active{
+    background-image: url(../img/star-yellow.png);
+  }
+  .valuation-list-item.bgHover{
+    background-image: url(../img/star-yellow.png);
+  }
